@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+.heroimage{ 
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("DSC00723.jpg");
+            background-position: center;
+            filter: grayscale(30%);
+            height: 65%;
+            background-image: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position:relative;
+           }
+.herotext { 
+    float: left;
+    padding: 200px 200px 0 200px;
+    font-family: 'Swanky and Moo Moo', sans-serif;
+    font-style: oblique;
+    font-size: 40;
+    color: goldenrod;
+}
+.biopic{
+    float: left;
+    width: 70%;
+    padding:0 0 0 0;
+}
+h1{ 
+   
+    float:center;
+    font-size: 50;
+    font-family: 'Swanky and Moo Moo', sans-serif;
+
+    padding: 2em auto 3em 4em;
+}
+body{
+    background-color: #c3c4c8;
+
+}
+.bioinfo{
+    
+    float:center;
+    font-size: 25;
+    font-family: 'Swanky and Moo Moo', sans-serif;
+
+}
+#biopic{
+    float: left;
+    width: 30%;
+}
+
+
+ul li {color: black;
+    list-style: none;
+    padding: 1em;
+    font-size: 30;
+    display:inline;
+    font-size: 35;
+    font-family: 'MV Boli', sans-serif; 
+
+    
+    }
+ul li a {text-decoration: none;
+    color:black;
+    position:relative;
+    z-index: 20;
+  
+    }
+ul li a:hover{
+    color:goldenrod;
+}
+
+form {text-align: center;}
