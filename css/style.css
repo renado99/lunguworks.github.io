@@ -20,8 +20,8 @@ body {
   left: 30%;
   transform: translate(-50%, -50%);
   color: goldenrod;
-  font-family: 'Swanky and Moo Moo',sans-serif;
-  font-size:60;
+  font-family: 'Swanky and Moo Moo','MV Boli', sans-serif;
+  font-size:40;
 }
 
 #logo { 
