@@ -2,24 +2,27 @@
     box-sizing: border-box;
 }
 
-.heroimage{ 
-            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("DSC00723.jpg");
-            background-position: center;
-            filter: grayscale(30%);
-            height: 65%;
-            background-image: center;
-            background-repeat: no-repeat;
-            background-size: cover;
-            position:relative;
-           }
-.herotext { 
-    float: left;
-    padding: 200px 200px 0 200px;
-    font-family: 'Swanky and Moo Moo', sans-serif;
-    font-style: oblique;
-    font-size: 40;
-    color: goldenrod;
+.heroimage{ background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("DSC00723.jpg");
+    filter: grayscale(30%);
+    height:65%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position:relative;
+   }
+.herotitle{
+height:70%;
+position:absolute;
+float:center;
 }
+.herotitle img {
+position:absolute;
+height:70%;
+float:center;
+
+
+
+}
+
 .biopic{
     float: left;
     width: 70%;
